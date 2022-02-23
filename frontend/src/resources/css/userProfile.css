@@ -1,0 +1,19 @@
+/*Both github and gitlab profile components css contained here*/
+.bio-container {
+  border: 2px solid black;
+  border-radius: 4px;
+  box-shadow: 4px 5px 10px;
+}
+
+.text-profile-bio {
+  font-size: 2em;
+}
+
+.bio-list-profile {
+  list-style: none;
+}
+
+.img-profile {
+  max-width: 18em;
+  max-height: 15em;
+}

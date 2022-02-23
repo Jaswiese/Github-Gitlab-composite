@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing if the homepage displays user details after search 1`] = `
+<DocumentFragment>
+  <div
+    class="container-fluid"
+  >
+    <div
+      class="justify-content-center row"
+    >
+      <div
+        class="col-md-6 col"
+      >
+        <h1
+          class="text-center"
+        >
+          Git Composite Search🔍
+        </h1>
+      </div>
+    </div>
+    <div
+      class="justify-content-center pt-2 row"
+    >
+      <div
+        class="col-md-8 justify-content-center col"
+      >
+        <div
+          class="search-bar-container d-flex justify-content-center"
+        >
+          <label
+            class="search-label"
+            for="searchBar"
+          />
+          <input
+            class="search-bar"
+            id="search-bar"
+            name="search-bar"
+            placeholder="search github/gitlab username here"
+            type="text"
+            value="svedova"
+          />
+          <button
+            class="btn btn-primary"
+            data-testid="search-button"
+            type="button"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h4
+    class="text-center"
+  >
+    Github user profiles
+  </h4>
+  <div
+    class="users-container-home container-fluid"
+  >
+    <div
+      class="outer-user-container-home"
+    >
+      <img
+        alt="profile-picture"
+        class="profile-picture-home"
+        src="https://avatars.githubusercontent.com/u/3321893?v=4"
+      />
+      <h4
+        class="user-name-home"
+      >
+        Username: svedova
+      </h4>
+      <button
+        class="btn btn-primary view-button-home"
+        type="button"
+      >
+        view
+      </button>
+    </div>
+    <div
+      class="outer-user-container-home"
+    >
+      <img
+        alt="profile-picture"
+        class="profile-picture-home"
+        src="https://avatars.githubusercontent.com/u/88555532?v=4"
+      />
+      <h4
+        class="user-name-home"
+      >
+        Username: svedovatto
+      </h4>
+      <button
+        class="btn btn-primary view-button-home"
+        type="button"
+      >
+        view
+      </button>
+    </div>
+    <div
+      class="outer-user-container-home"
+    >
+      <img
+        alt="profile-picture"
+        class="profile-picture-home"
+        src="https://avatars.githubusercontent.com/u/20651407?v=4"
+      />
+      <h4
+        class="user-name-home"
+      >
+        Username: Svedovatem48
+      </h4>
+      <button
+        class="btn btn-primary view-button-home"
+        type="button"
+      >
+        view
+      </button>
+    </div>
+    <div
+      class="outer-user-container-home"
+    >
+      <img
+        alt="profile-picture"
+        class="profile-picture-home"
+        src="https://avatars.githubusercontent.com/u/54397660?v=4"
+      />
+      <h4
+        class="user-name-home"
+      >
+        Username: svedova-tutti
+      </h4>
+      <button
+        class="btn btn-primary view-button-home"
+        type="button"
+      >
+        view
+      </button>
+    </div>
+    <div
+      class="outer-user-container-home"
+    >
+      <img
+        alt="profile-picture"
+        class="profile-picture-home"
+        src="https://avatars.githubusercontent.com/u/57945246?v=4"
+      />
+      <h4
+        class="user-name-home"
+      >
+        Username: svedova-test
+      </h4>
+      <button
+        class="btn btn-primary view-button-home"
+        type="button"
+      >
+        view
+      </button>
+    </div>
+  </div>
+  <div
+    class="spinner-border"
+    role="status"
+  >
+    <span
+      class="visually-hidden"
+    >
+      Loading...
+    </span>
+  </div>
+</DocumentFragment>
+`;

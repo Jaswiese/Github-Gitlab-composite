@@ -1,0 +1,32 @@
+/*User component CSS start here */
+.users-container-home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.outer-user-container-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12em;
+  height: 18em;
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 4px 5px 10px;
+}
+.profile-picture-home {
+  max-width: 10em;
+}
+.user-name-home {
+  max-width: 10em;
+  text-align: center;
+}
+
+.view-button-home {
+  max-width: 8em;
+  background-color: rgb(55, 182, 29);
+  border: 1px solid rgb(55, 182, 29);
+}

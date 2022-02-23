@@ -1,0 +1,23 @@
+/*both github and gitlab repo  component css is contained here */
+.repo-outer-container {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 4px 5px 10px;
+  width: 20em;
+  height: auto;
+  margin: 1em;
+}
+
+.repo-list {
+  list-style: none;
+}
+
+.repo-inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
